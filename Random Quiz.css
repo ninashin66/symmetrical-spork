@@ -1,0 +1,48 @@
+ 
+{
+  box-sizing: border-box;
+}
+
+ body {
+ 
+ background-color: #7c6a55;
+  font-family: 'Libre Franklin', sans-serif;
+  
+}
+
+
+.header {
+  grid-area: header;
+  padding: 10px;
+  text-align: center;
+  background-color: #e2e41a;
+  font-size: 25px;
+  font-family: 'Major Mono Display', monospace;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 20px;
+}
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header'
+    'left middle right'
+} 
+
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  padding: 20px;
+  background-color: #afdfe4;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+#response {
+  font-size: 20px;
+}
